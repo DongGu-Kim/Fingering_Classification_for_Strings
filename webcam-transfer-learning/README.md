@@ -1,10 +1,18 @@
-# TensorFlow.js Example: Transfer Learning to play Pacman via the Webcam
+# Tensorflow Implementation
 
-This example shows you how to predict poses from a webcam using transfer
-learning.
+# Dependencies
 
-In this example, we'll use a pretrained [MobileNet](https://github.com/tensorflow/tfjs-examples/tree/master/mobilenet) model and train another model
-using an internal mobilenet activation to predict 4 different classes from the
-webcam defined by the user.
+ - Node.js version 8.9 or higher
+ - [NPM cli](https://docs.npmjs.com/cli/npm) OR [Yarn](https://yarnpkg.com/en/)
 
-[See this example live!](https://storage.googleapis.com/tfjs-examples/webcam-transfer-learning/dist/index.html)
+# Must Load Model on Web Server Before Lauch
+```sh
+
+```
+
+# Example
+```sh
+cd Fingering_Classification_for_Strings
+yarn
+yarn watch
+```
