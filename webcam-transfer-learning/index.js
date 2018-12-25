@@ -79,7 +79,7 @@ async function init() {
   } catch (e) {
     document.getElementById('no-webcam').style.display = 'block';
   }
-  const mobilenet = await tf.loadModel('https://github.com/DongGu-Kim/Fingering_Classification_for_Strings/tree/master/webcam-transfer-learning/js_model/model.json');
+  const mobilenet = await tf.loadModel('http://192.168.1.156:8887/model.json');
 
   truncatedMobileNet = mobilenet;
   // console.log(webcam.capture());
