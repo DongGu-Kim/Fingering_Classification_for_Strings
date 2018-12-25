@@ -5,14 +5,12 @@
  - Node.js version 8.9 or higher
  - [NPM cli](https://docs.npmjs.com/cli/npm) OR [Yarn](https://yarnpkg.com/en/)
 
-# Must Load Model on Web Server Before Lauch
-```sh
-
-```
-
 # Example
 ```sh
 cd Fingering_Classification_for_Strings
 yarn
 yarn watch
 ```
+#### The tensorflowjs model has been uploaded at http://192.168.1.156:8887/model.json
+#### If this server breaks, You can host a server and upload js_model folder then 
+#### modify index.js accordingly.
