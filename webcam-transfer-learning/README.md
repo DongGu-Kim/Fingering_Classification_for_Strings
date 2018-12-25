@@ -7,7 +7,8 @@
 
 # Example
 ```sh
-cd Fingering_Classification_for_Strings
+git clone https://github.com/DongGu-Kim/Fingering_Classification_for_Strings.git
+cd Fingering_Classification_for_Strings/webcam-transfer-learning
 yarn
 yarn watch
 ```
